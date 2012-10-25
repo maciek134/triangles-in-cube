@@ -107,6 +107,16 @@ var app = new function () {
 		5, 6, 2,
 		1, 5, 6,
 		
+		2, 3, 7,
+		3, 7, 6,
+		7, 6, 2,
+		6, 2, 3,
+		
+		0, 4, 5,
+		4, 5, 1,
+		5, 1, 0,
+		1, 0, 4,
+		
 		0, 5, 3,
 		4, 1, 7,
 		6, 0, 5,
@@ -135,7 +145,9 @@ var app = new function () {
 		1, 7, 0,
 		0, 6, 7,
 		7, 1, 6,
-		6, 0, 1
+		6, 0, 1,
+		
+		
 	];
 	
 	this.init = function (canvas) {
@@ -161,9 +173,9 @@ var app = new function () {
 		ctx.beginPath();
 		for (var x = 1; x < 4; x++) {
 			ctx.moveTo(x * 160 + 0.5, 0.5);
-			ctx.lineTo(x * 160 + 0.5, 2048.5);
+			ctx.lineTo(x * 160 + 0.5, 2240.5);
 		}
-		for (var y = 1; y < 12; y++) {
+		for (var y = 1; y < 14; y++) {
 			ctx.moveTo(0.5, y * 160 + 0.5);
 			ctx.lineTo(640.5, y * 160 + 0.5);
 		}
