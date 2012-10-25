@@ -4,6 +4,6 @@ body {
 	text-align: center;
 }
 
-canvas {
+canvas, img {
 	border: 1px solid black;
 }
