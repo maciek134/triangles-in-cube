@@ -1,12 +1,9 @@
 body {
 	background: #cdcdcd;
 	font-family: Calibri, Arial;
-}
-
-h1, p {
 	text-align: center;
 }
 
 canvas {
-	margin: auto;
+	border: 1px solid black;
 }
