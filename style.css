@@ -1,0 +1,11 @@
+body {
+	background: #cdcdcd;
+}
+
+h1, p {
+	text-align: center;
+}
+
+canvas {
+	margin: auto;
+}
